@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+*.db
+*.sqlite3
+
+# Environment secrets — do NOT commit these
+.env
+.env.local
+.env.*.local
+# Note: .env.production is intentionally tracked (holds only public API URL)
+!.env.production
+
+# Node
+node_modules/
+.cache/
+
+# Vite build output
+frontend/dist/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
